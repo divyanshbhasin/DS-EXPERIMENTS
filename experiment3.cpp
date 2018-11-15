@@ -1,3 +1,10 @@
+/*
+Write a program to accept N integers from the user and store them in an array. Sort the array in
+ascending order using Bubble sort. Then accept another number from the user, search whether that
+number exists in the array using Binary Search. If it does, display its index and if it doesn’t, then print
+that the number is not found in the array.
+*/
+
 #include<iostream>
 using namespace std;
 int search_binary(int a[], int l, int r, int x)
